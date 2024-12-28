@@ -37,7 +37,7 @@ async function carregaPagina(link){
         url : href, 
     };
     try{
-        const  response = await ajax(objConfig);
+        const response = await ajax(objConfig);
         carregaResultado(response)
     }catch(e){
         console.log(e);
